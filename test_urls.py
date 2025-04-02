@@ -25,7 +25,7 @@ class TestCustomURLs(unittest.TestCase):
         print("\nTesting URLs...\n")
         for url in url_list:
             try:
-                response = requests.get(url, timeout=5)
+                response = requests.get(url, timeout=10)
                 status_code = response.status_code
 
                 if status_code == 200:
