@@ -43,7 +43,7 @@ class TestCustomURLs(unittest.TestCase):
                 self.fail(f"{url} is unreachable: {e}")
 
         print("\nSummary Report:")
-        print(colored(f"Total URLs tested: {len(url_list)}", "blue"))
+        print(colored(f"Total URLs tested hi: {len(url_list)}", "blue"))
         print(colored(f"Successful: {success_count}", "green"))
         print(colored(f"Failed: {failure_count}", "red"))
 
